@@ -1,6 +1,6 @@
 import React from "react";
-import HighlightIcon from "@material-ui/icons/Highlight";
-
+import HighlightIcon from '@mui/icons-material/Highlight';
+import "../App.css"
 function Header() {
   return (
     <header>

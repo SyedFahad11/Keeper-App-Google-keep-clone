@@ -1,6 +1,6 @@
 import React from "react";
-import DeleteIcon from "@material-ui/icons/Delete";
-
+import DeleteIcon from '@mui/icons-material/Delete';
+import "../App.css"
 function Note(props) {
   function handleClick() {
     props.onDelete(props.id);
